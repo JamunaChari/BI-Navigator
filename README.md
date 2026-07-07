@@ -11,6 +11,11 @@
 
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+<p align="center">
+  <img src="screenshots/home.png" width="900">
+</p>
+
+
 
 \## Your Agentic Business Intelligence Assistant
 
@@ -23,10 +28,29 @@ BI Navigator is an AI-powered Business Intelligence Assistant that enables users
 Built using a collaborative multi-agent architecture powered by Google Gemini, BI Navigator demonstrates how Agentic AI can simplify analytics workflows and make business intelligence accessible to everyone.
 
 
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Architecture](#architecture)
+- [Demo](#demo)
+- [Technology Stack](#-technology-stack)
+- [Project Structure](#-project-structure)
+- [How to Run](#-how-to-run)
+- [Screenshots](#-screenshots)
+- [Future Enhancements](#-future-enhancements)
 
 \---
 
+## 🚀 Features at a Glance
 
+- 💬 Ask questions in plain English
+- 🧠 Intent Analysis
+- 🗄 Automatic Schema Discovery
+- ⚙ SQL Generation using Gemini
+- ✅ SQL Validation
+- 📈 Interactive Visualizations
+- 💡 AI-generated Business Insights
+- 🤖 Multi-Agent Architecture
 
 \# 🚀 Project Overview
 
@@ -103,7 +127,7 @@ BI Navigator demonstrates how autonomous AI agents can collaborate to transform 
 
 ## Demo
 
-(Add demo GIF after recording)
+(Demo Video Coming Soon)
 
 
 
@@ -428,19 +452,15 @@ Dashboard
 \---
 
 
-## 📦 Repository
+## 📦 Repository Highlights
 
-This project demonstrates the use of modern AI engineering practices and technologies.
-
-- Python
-- Streamlit
-- Google Gemini API
-- SQLite
-- Plotly
-- Pandas
-- Prompt Engineering
-- Agentic AI
-- Multi-Agent Architecture
+- 🤖 Multi-Agent AI Architecture
+- 💬 Natural Language → SQL
+- 🧠 Business Insight Generation
+- 📊 Automatic Visualization Recommendation
+- ✅ SQL Validation Pipeline
+- 🗄 SQLite Analytics Engine
+- ⚡ Streamlit Interactive Dashboard
 
 
 
@@ -452,59 +472,13 @@ This project demonstrates the use of modern AI engineering practices and technol
 ```text
 
 BI-Navigator/
-
-
-
-│
-
 ├── agents/
-
-│   ├── intent\_agent.py
-
-│   ├── schema\_agent.py
-
-│   ├── sql\_generator\_agent.py
-
-│   ├── sql\_validator\_agent.py
-
-│   ├── insight\_agent.py
-
-│   └── visualization\_agent.py
-
-│
-
 ├── services/
-
-│   ├── database\_service.py
-
-│   ├── gemini\_service.py
-
-│   └── config.py
-
-│
-
 ├── utils/
-
-│   └── chart\_renderer.py
-
-│
-
 ├── database/
-
-│   └── retail.db
-
-│
-
 ├── app/
-
-│   └── main.py
-
-│
-
-├── .env
-
+├── screenshots/
 ├── requirements.txt
-
 └── README.md
 
 ```
@@ -517,99 +491,20 @@ BI-Navigator/
 
 \# ▶ How to Run
 
-
-
-\### Clone the repository
-
+### Launch the Application
 
 
 ```bash
-
-git clone <repository-url>
-
+streamlit run app/main.py
 ```
 
-
-
-\### Create Virtual Environment
-
-
-
-```bash
-
-python -m venv .venv
-
-```
-
-
-
-\### Activate Environment
-
-
-
-Windows
-
-
-
-```bash
-
-.venv\\Scripts\\activate
-
-```
-
-
-
-Mac/Linux
-
-
-
-```bash
-
-source .venv/bin/activate
-
-```
-
-
-
-\### Install Dependencies
-
-
-
-```bash
-
-pip install -r requirements.txt
-
-```
-
-
-
-\### Configure Environment Variables
-
-
-
-Create a `.env` file
-
-
+Once the application starts successfully, open your browser and navigate to:
 
 ```text
-
-GEMINI\_API\_KEY=YOUR\_API\_KEY
-
+http://localhost:8501
 ```
 
-
-
-\### Launch the Application
-
-
-
-```bash
-
-streamlit run app/main.py
-
-```
-
-
+If the port is already in use, Streamlit will automatically assign another available port (for example, `http://localhost:8502`) and display the correct URL in the terminal.
 
 \---
 
@@ -619,17 +514,22 @@ streamlit run app/main.py
 
 
 
-\- Show revenue by category
+### Sales
 
-\- Show total sales by region
+- Show revenue by category
+- Compare revenue by region
 
-\- Which products generated the highest revenue?
+### Products
 
-\- Compare revenue across categories
+- Which products generated the highest revenue?
 
-\- Show monthly sales trend
+### Customers
 
-\- Which customers generated the highest revenue?
+- Which customers generated the highest revenue?
+
+### Trends
+
+- Show monthly sales trend
 
 
 
@@ -650,6 +550,24 @@ FROM Sales
 GROUP BY category;
 
 ```
+Business Question
+
+↓
+
+Intent
+
+↓
+
+Generated SQL
+
+↓
+
+Business Insights
+
+↓
+
+Visualization
+
 
 # 📷 Screenshots
 
@@ -733,7 +651,7 @@ GROUP BY category;
 
 
 
-\# 🎓 Learning Outcomes
+## 🎓 Key Engineering Takeaways
 
 
 
@@ -785,19 +703,21 @@ Special thanks to the instructors and the open-source AI community for making mo
 
 
 
-\*\*Jamuna Kashyap\*\*
+\*\*Jamuna Chari\*\*
 
 
 
-Business Intelligence Engineer | Data Analytics | Agentic AI Developer
+Senior Business Intelligence Engineer
+
+Data Analytics | AI Engineering | Agentic AI
 
 
 
-LinkedIn: \*(Add your LinkedIn profile)\*
+LinkedIn: https://www.linkedin.com/in/jamuna-chari-6499bb4a/
 
 
 
-GitHub: \*(Add your GitHub profile)\*
+GitHub: [JamunaChari](https://github.com/JamunaChari)
 
 
 
