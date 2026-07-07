@@ -651,33 +651,57 @@ GROUP BY category;
 
 
 
-\# 📸 Screenshots
+# 📷 Screenshots
+
+## 🏠 Home Page
+
+![Home](screenshots/home.png)
+
+---
+
+## 🧠 Intent Analysis
+
+![Intent](screenshots/intent.png)
+
+---
+
+## 🗄️ Schema Discovery
+
+![Schema](screenshots/schema.png)
+
+---
+
+## 💻 SQL Generation
+
+![SQL](screenshots/sql.png)
+
+---
+
+## 📊 Query Results
+
+![Results](screenshots/results.png)
+
+---
+
+## 💡 Business Insights
+
+![Insights](screenshots/insights.png)
+
+---
+
+## 📈 Visualization
+
+![Visualization](screenshots/visualization.png)
+
+---
+
+## 🤖 Agent Workflow
+
+![Workflow](screenshots/workflow.png)
 
 
 
-(Add screenshots here)
 
-
-
-\- Home Page
-
-\- Intent Analysis
-
-\- Schema Discovery
-
-\- SQL Generation
-
-\- Query Results
-
-\- Business Insights
-
-\- Visualization
-
-\- Agent Workflow
-
-
-
-\---
 
 
 
