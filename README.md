@@ -649,7 +649,7 @@ SUM(revenue)
 FROM Sales
 GROUP BY category;
 
-
+```
 
 # 📷 Screenshots
 
